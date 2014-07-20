@@ -49,7 +49,7 @@ Won't Upload Firmware?
 * Re-plug Onyx Devce
 * Start new compiler container
 
-No USB showing in VirtualBox
+Onyx not showing in VirtualBox?
 * Download VirtualBox -- https://www.virtualbox.org/wiki/Downloads
 * Shut off all programs
 * Install VirtualBox
