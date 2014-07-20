@@ -21,8 +21,6 @@ Windows / OSX
 -------------------
 * Download Boot2Docker -- http://boot2docker.io/   (This will restart system after install)
 * Install Boot2Docker -- Custom Installation > Boot2Docker + VirtualBox (if missing) > Install Devices > Restart
-* Un-lock Onyx geiger counter (switch on back)
-* Plug in Onyx geiger counter
 * Open VirtualBox manager
 * Start Boot2Docker
 * * Open VirtualBox manager > boot2docker-vm > STOP (if running)
@@ -31,6 +29,9 @@ Windows / OSX
 * USB > Enable USB Controller > ADD (Green + Sign) > FTDI FT232R USB UART > OK
 * Close Boot2Docker Application
 * VirtualBox manager > boot2docker-vm > start
+* Wait for boot
+* Un-lock Onyx geiger counter (switch on back)
+* Plug in Onyx geiger counter
 * Open boot2docker-vm
 
 Linux
