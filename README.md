@@ -53,9 +53,3 @@ No USB showing in VirtualBox
 * Download VirtualBox -- https://www.virtualbox.org/wiki/Downloads
 * Shut off all programs
 * Install VirtualBox
-
-Permission Denied!!? - (because of sudo)
-  
-  sudo !!
-    or
-  sudo docker run -privileged -v=/dev/bus/usb:/dev/bus/usb -t -rm="true" program3r/onyx-firmware-loader-container:latest
