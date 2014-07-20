@@ -25,7 +25,8 @@ Windows / OSX
 * Start Boot2Docker
 * Open VirtualBox manager > boot2docker-vm > settings
 * Network > Attached to > Bridged Adapter
-* USB > Enable USB Controller > 
+* USB > Enable USB Controller
+
 Linux
 -------------------
 * Install Docker
