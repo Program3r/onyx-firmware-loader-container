@@ -6,9 +6,10 @@ Onyx Geiger Counter - Firmware Loader & Devel Compiler in a Container
 REQUIREMENTS:
 ==========================
 
-CPU: 64bit
+CPU: x64 + Virtualization
 
 OS: Linux / Windows / OSX
+
 
 
 
@@ -18,12 +19,13 @@ INSTRUCTIONS:
 
 Windows / OSX
 -------------------
-* Run VirtualBox
-* Install Ubuntu                            #Pre-built VM will be provided soon.
+* Download Boot2Docker -- http://boot2docker.io/   (This will restart system after install)
+* Install Boot2Docker -- Custom Installation > Boot2Docker + VirtualBox (if missing) > Install Devices > Restart
 * Plug in Onyx geiger counter
-* Forward USB device to Virtual Machine
-
-
+* Start Boot2Docker
+* Open VirtualBox manager > boot2docker-vm > settings
+* Network > Attached to > Bridged Adapter
+* USB > Enable USB Controller > 
 Linux
 -------------------
 * Install Docker
