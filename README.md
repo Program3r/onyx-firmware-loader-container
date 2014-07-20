@@ -28,7 +28,7 @@ Linux
 -------------------
 * Install Docker
 * Re-plug Onyx Devce
-* docker run -privileged -v=/dev/bus/usb:/dev/bus/usb -t -rm="true" program3r/onyx-firmware-loader-container
+* docker run -privileged -v=/dev/bus/usb:/dev/bus/usb -t -rm="true" program3r/onyx-firmware-loader-container:latest
 
 
 
@@ -36,4 +36,4 @@ TROUBLESHOOTING
 ------------------
 
 * Re-plug Onyx Devce
-* Start new container
+* Start new compiler container
