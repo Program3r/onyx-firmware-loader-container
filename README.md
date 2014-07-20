@@ -3,11 +3,18 @@ Onyx Geiger Counter - Firmware Loader & Devel Compiler in a Container
 ==============================
 
 
-CPU TARGETS: 64bit
-OS: Linux
+REQUIREMENTS:
+==========================
+
+CPU: 64bit
+
+OS: Linux / Windows / OSX
+
+
+
 
 INSTRUCTIONS:
-
+==========================
 
 Windows / OSX
 -------------------
