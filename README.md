@@ -41,6 +41,9 @@ Docker
 * Re-plug Onyx Devce
 * docker run -privileged -v=/dev/bus/usb:/dev/bus/usb -t -rm="true" program3r/onyx-firmware-loader-container:latest
 
+Afterward
+-------------------
+* Scream "It's Alive!"
 
 UPDATING
 ==========================
@@ -48,7 +51,7 @@ UPDATING
 * Open boot2docker-vm
 * Plug In Onyx Devce
 * docker run -privileged -v=/dev/bus/usb:/dev/bus/usb -t -rm="true" program3r/onyx-firmware-loader-container:latest
-
+* Scream "It's Alive!"
 
 TROUBLESHOOTING
 ==========================
