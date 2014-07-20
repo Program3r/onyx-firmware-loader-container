@@ -24,6 +24,7 @@ Windows / OSX
 * Plug in Onyx geiger counter
 * Open VirtualBox manager
 * Start Boot2Docker
+* * Open VirtualBox manager > boot2docker-vm > STOP (if running)
 * Open VirtualBox manager > boot2docker-vm > settings
 * Network > Attached to > Bridged Adapter (optional)
 * USB > Enable USB Controller > ADD (Green + Sign) > FTDI FT232R USB UART > OK
