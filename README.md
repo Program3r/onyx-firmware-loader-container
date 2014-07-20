@@ -45,7 +45,7 @@ Docker
 TROUBLESHOOTING
 ------------------
 
-Wont Upload Firmware?
+Won't Upload Firmware?
 * Re-plug Onyx Devce
 * Start new compiler container
 
@@ -53,3 +53,11 @@ No USB showing in VirtualBox
 * Download VirtualBox -- https://www.virtualbox.org/wiki/Downloads
 * Shut off all programs
 * Install VirtualBox
+
+Too much radiation exposure?
+* Get out of the immediate area quickly.
+* Remove your outer layer of clothing.
+* Place clothing in a plastic bag or away from others.
+* Wash all exposed parts of your body.
+* Internal contamination may call for medical attention.
+#SOURCE - CDC     http://www.bt.cdc.gov/radiation/contamination.asp
