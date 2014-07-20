@@ -22,10 +22,14 @@ Windows / OSX
 * Download Boot2Docker -- http://boot2docker.io/   (This will restart system after install)
 * Install Boot2Docker -- Custom Installation > Boot2Docker + VirtualBox (if missing) > Install Devices > Restart
 * Plug in Onyx geiger counter
+* Open VirtualBox manager
 * Start Boot2Docker
 * Open VirtualBox manager > boot2docker-vm > settings
-* Network > Attached to > Bridged Adapter
-* USB > Enable USB Controller
+* Network > Attached to > Bridged Adapter (optional)
+* USB > Enable USB Controller > ADD (Green + Sign) > FTDI FT232R USB UART > OK
+* Close Boot2Docker Application
+* VirtualBox manager > boot2docker-vm > start
+* Open boot2docker-vm
 
 Linux
 -------------------
@@ -38,5 +42,11 @@ Linux
 TROUBLESHOOTING
 ------------------
 
+Wont Upload Firmware?
 * Re-plug Onyx Devce
 * Start new compiler container
+
+No USB showing in VirtualBox
+* Download VirtualBox -- https://www.virtualbox.org/wiki/Downloads
+* Shut off all programs
+* Install VirtualBox
