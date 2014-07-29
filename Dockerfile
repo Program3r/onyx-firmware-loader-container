@@ -14,7 +14,8 @@ RUN mkdir /home/source
 WORKDIR /home/source
 RUN git clone https://github.com/sonomasoft/onyxfirmware.git
 WORKDIR /home/source/onyxfirmware
-RUN git checkout devel
+RUN git checkout master
+
 RUN apt-get -y install build-essential g++ curl libssl-dev apache2-utils git libxml2-dev
 #WORKDIR /home/source/onyxfirmware/firmware_loader
 #RUN make
